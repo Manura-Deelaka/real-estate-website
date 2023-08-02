@@ -8,9 +8,9 @@ const Team = () => {
     <>
       <section className='team background'>
         <div className='container'>
-          <Heading title='Our Featured Agents' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
+          <Heading title='Testimonials' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
 
-          <div className='content mtop grid3'>
+          {/* <div className='content mtop grid3'>
             {team.map((val, index) => (
               <div className='box' key={index}>
                 <button className='btn3'>{val.list} Listings</button>
@@ -39,6 +39,29 @@ const Team = () => {
                   </div>
                 </div>
               </div>
+            ))}
+          </div> */}
+
+        <div className='content mtop grid3'>
+            {team.map((val, index) => (
+              <div className='box' key={index}>
+                
+                  <div className='img'>
+                    <img src={val.cover} alt='' />
+                    <i className='fa-solid fa-circle-check'></i>
+                  </div>
+
+                  <i className='fa fa-location-dot'></i>
+                  <label>{val.address}</label>
+                  <h4>{val.name}</h4>
+
+                  <ul>
+                    {val.icon.map((icon, index) => (
+                      <li key={index}>{icon}</li>
+                    ))}
+                  </ul>
+              </div>
+              
             ))}
           </div>
         </div>
