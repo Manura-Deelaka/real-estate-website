@@ -297,15 +297,23 @@ export const price = [
 ]
 export const footer = [
   {
-    title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+    title: "SELL A HOME",
+    text: [{ list: "TEXT 1" }, { list: "TEXT 2" }, ],
   },
   {
-    title: "ALL SECTIONS",
-    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
+    title: "RENT A HOME",
+    text:[{ list: "TEXT 1" }, { list: "TEXT 2" }, ],
   },
   {
-    title: "COMPANY",
-    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
+    title: "ABOUT",
+    text: [{ list: "TEXT 1" }, { list: "TEXT 2" },  { list: "TEXT 3" }],
+  },
+  {
+    title: "INVEST",
+    text: [{ list: "TEXT 1" }, { list: "TEXT 2" }, ],
+  },
+  {
+    title: "TERMS & PRIVACY",
+    text: [{ list: "TEXT 1" }, { list: "TEXT 2" }, ],
   },
 ]

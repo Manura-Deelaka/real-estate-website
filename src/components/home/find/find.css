@@ -1,0 +1,39 @@
+  
+  .inline-form > .inline-form__control {
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    background: white;
+    margin-top: 20px;
+  }
+  
+  .inline-form input {
+    width: calc(100% - 70px);
+    text-indent: 10px;
+    font-size: 14px;
+    line-height: 28px;
+    border: none;
+    outline: none;
+  }
+  .inline-form button {
+    width: 30%;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: #27ae60;
+    color: #fff;
+    outline: none;
+  }
+
+  .form-comp p {
+    font-size: 15.5px;
+    color: #72809d;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .form-comp {
+   padding-left: 25%;
+   padding-right:  25%;
+   
+  }
+  
