@@ -6,12 +6,14 @@ import Location from "./location/Location"
 import Price from "./price/Price"
 import Recent from "./recent/Recent"
 import Team from "./team/Team"
+import Banner from "./banner/Banner"
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Featured />
+      <Banner/>
+      {/* <Featured /> */}
       <Recent />
       <Awards />
       <Location />
